@@ -1,9 +1,5 @@
 {
   "routes": [
-    {
-      "route": "/config.json",
-      "rewrite": "/index.html"
-    }
   ],
   "navigationFallback": {
     "rewrite": "/index.html"
