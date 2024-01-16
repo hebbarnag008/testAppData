@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/config.json",
-      "redirect": "/index.html"
+      "allowedRoles": ["administrator"]
     }
   ],
   "navigationFallback": {
