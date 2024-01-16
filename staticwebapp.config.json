@@ -1,8 +1,9 @@
 {
+  "trailingSlash": "auto",
   "routes": [
     {
       "route": "/config.json",
-      "allowedRoles": ["administrator"]
+      "allowedRoles": ["authenticated"]
     }
   ],
   "navigationFallback": {
