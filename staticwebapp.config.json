@@ -2,6 +2,7 @@
   "routes": [
     {
       "route": "/config.json",
+      "rewrite": "/index.html",
       "statusCode": 404
     }
   ],
@@ -12,8 +13,5 @@
     "404": {
       "rewrite": "/index.html"
     }
-  },
-  "mimeTypes": {
-    ".json": "text/json"
   }
 }
