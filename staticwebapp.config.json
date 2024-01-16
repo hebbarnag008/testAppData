@@ -1,10 +1,10 @@
 {
   "routes": [
+    {
+      "route": "/config.json"
+    }
   ],
   "navigationFallback": {
     "rewrite": "/index.html"
-  },
-  "mimeTypes": {
-    ".json": "text/json"
   }
 }
