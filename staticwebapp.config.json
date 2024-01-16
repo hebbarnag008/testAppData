@@ -1,11 +1,17 @@
 {
   "routes": [
     {
-      "route": "/config.json"
+      "route": "/config.json",
+      "statusCode": 404
     }
   ],
   "navigationFallback": {
     "rewrite": "/index.html"
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
   },
   "mimeTypes": {
     ".json": "text/json"
