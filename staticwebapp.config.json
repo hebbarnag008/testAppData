@@ -1,17 +1,6 @@
 {
   "trailingSlash": "auto",
-  "routes": [
-    {
-      "route": "/config.json",
-      "redirect": "/index.html",
-      "statusCode": 301
-    },
-    {
-      "route": "/config.json",
-      "redirect": "/index.html",
-      "statusCode": 301
-    }
-  ],
+  "routes": [],
   "navigationFallback": {
     "rewrite": "/index.html"
   },
