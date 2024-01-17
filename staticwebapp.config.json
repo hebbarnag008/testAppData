@@ -2,8 +2,7 @@
   "routes": [
     {
       "route": "/config.json",
-      "redirect": "/",
-      "statusCode": 302
+      "rewrite": "/"
     }
   ],
   "navigationFallback": {
