@@ -1,9 +1,9 @@
 {
-  "trailingSlash": "auto",
   "routes": [
     {
       "route": "/config.json",
-      "redirect": "/index.html"
+      "serve": "/", 
+      "statusCode": 301
     }
   ],
   "navigationFallback": {
