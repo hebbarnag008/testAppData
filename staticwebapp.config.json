@@ -1,4 +1,11 @@
 {
+  "trailingSlash": "auto",
+  "routes": [
+    {
+      "route": "/config.json",
+      "redirect": "/index.html"
+    }
+  ],
   "navigationFallback": {
     "rewrite": "/index.html"
   }
