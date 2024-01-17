@@ -1,11 +1,11 @@
 import React from "react";
-import configdata from "../src/config.json";
+
 function App() {
   const value = "World";
   const getconfig = async () => {
     try {
-      //const config = fetch(configdata);
-      console.log(configdata);
+      const config = await fetch("./config.json");
+      console.log(await config.json());
     } catch (error) {
       console.log("Error" + error);
     }
