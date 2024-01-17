@@ -10,6 +10,7 @@ function App() {
       console.log("Error" + error);
     }
   };
+  console.log(getconfig());
   return <div>Hello {value}</div>;
 }
 
