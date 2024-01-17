@@ -4,7 +4,7 @@ function App() {
   const value = "World";
   const getconfig = async () => {
     try {
-      const config = await fetch("./config.json");
+      const config = await fetch("../config.json");
       console.log(await config.json());
     } catch (error) {
       console.log("Error" + error);
